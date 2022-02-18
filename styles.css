@@ -42,7 +42,6 @@ body{
 .pb{
 	padding-bottom: 20px;
 }
-
 .title{
 	font-size: 24px;
 	font-weight: 700;
@@ -63,6 +62,11 @@ body{
 	width: 50px;
 	height: 3px;
 	background: #fff;
+}
+
+.black{
+	color: #9153c9;
+	margin-right: 15px;
 }
 
 .left .icon{
@@ -95,7 +99,8 @@ body{
 }
 
 .contact .li_wrap .text{
-	width: calc(100% - 50px);
+	/* width: calc(100% - 50px); */
+	width: 100%;
 	word-break: break-word;
 	color: #fff;
 }
